@@ -1,0 +1,7 @@
+*bak
+*cache*
+*.zip
+outputs
+gerbers
+datasheets
+*.swp

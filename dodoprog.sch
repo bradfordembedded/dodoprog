@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Dodoprog"
-Date "21 may 2015"
+Date "28 may 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -203,4 +203,125 @@ Wire Wire Line
 Connection ~ 10000 5700
 Connection ~ 10350 5700
 Connection ~ 10700 5700
+$Comp
+L USB-MICRO-B J?
+U 1 1 5566E110
+P 1250 1300
+F 0 "J?" H 1250 1650 60  0000 C CNN
+F 1 "USB-MICRO-B" H 1250 850 60  0000 C CNN
+F 2 "~" H 1100 1300 60  0000 C CNN
+F 3 "~" H 1100 1300 60  0000 C CNN
+	1    1250 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1200 2200 1200
+Wire Wire Line
+	1750 1300 2200 1300
+Text Label 2100 1300 0    60   ~ 0
+DP
+Text Label 2100 1200 0    60   ~ 0
+DM
+$Comp
+L +5V #PWR?
+U 1 1 5566E16C
+P 1950 900
+F 0 "#PWR?" H 1950 860 30  0001 C CNN
+F 1 "+5V" H 1950 1010 30  0000 C CNN
+F 2 "~" H 1950 900 60  0000 C CNN
+F 3 "~" H 1950 900 60  0000 C CNN
+	1    1950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1100 1950 1100
+Wire Wire Line
+	1950 1100 1950 900 
+$Comp
+L SHLD #PWR?
+U 1 1 5566E1F4
+P 1850 1750
+F 0 "#PWR?" H 1700 1750 30  0001 C CNN
+F 1 "SHLD" H 1850 1625 30  0000 C CNN
+F 2 "~" H 1850 1750 60  0000 C CNN
+F 3 "~" H 1850 1750 60  0000 C CNN
+	1    1850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5566E203
+P 2100 1750
+F 0 "#PWR?" H 1950 1750 30  0001 C CNN
+F 1 "GND" H 2100 1625 30  0000 C CNN
+F 2 "~" H 2100 1750 60  0000 C CNN
+F 3 "~" H 2100 1750 60  0000 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1600 1850 1600
+Wire Wire Line
+	1850 1600 1850 1750
+Wire Wire Line
+	1750 1500 2100 1500
+Wire Wire Line
+	2100 1400 2100 1750
+Wire Wire Line
+	1750 1400 2100 1400
+Connection ~ 2100 1500
+$Comp
+L SHLD #PWR?
+U 1 1 5566E292
+P 950 2500
+F 0 "#PWR?" H 800 2500 30  0001 C CNN
+F 1 "SHLD" H 950 2375 30  0000 C CNN
+F 2 "~" H 950 2500 60  0000 C CNN
+F 3 "~" H 950 2500 60  0000 C CNN
+	1    950  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5566E2A1
+P 1350 2500
+F 0 "#PWR?" H 1200 2500 30  0001 C CNN
+F 1 "GND" H 1350 2375 30  0000 C CNN
+F 2 "~" H 1350 2500 60  0000 C CNN
+F 3 "~" H 1350 2500 60  0000 C CNN
+	1    1350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5566E2CE
+P 1150 2350
+F 0 "R?" H 1150 2275 40  0000 C CNN
+F 1 "R" H 1150 2350 30  0000 C CNN
+F 2 "~" H 1150 2325 60  0000 C CNN
+F 3 "~" H 1150 2325 60  0000 C CNN
+	1    1150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C?
+U 1 1 5566E2DD
+P 1200 2200
+F 0 "C?" H 1200 2300 40  0000 L CNN
+F 1 "CAP" H 1200 2150 40  0000 L CNN
+F 2 "~" H 1200 2200 60  0000 C CNN
+F 3 "~" H 1200 2200 60  0000 C CNN
+	1    1200 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  2200 950  2500
+Wire Wire Line
+	950  2200 1050 2200
+Connection ~ 950  2350
+Wire Wire Line
+	1300 2200 1350 2200
+Wire Wire Line
+	1350 2200 1350 2500
+Connection ~ 1350 2350
 $EndSCHEMATC

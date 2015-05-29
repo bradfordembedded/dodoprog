@@ -536,12 +536,7 @@ $EndComp
 Wire Wire Line
 	15350 900  15350 1050
 Wire Wire Line
-	15200 950  15500 950 
-Wire Wire Line
 	15200 950  15200 1050
-Connection ~ 15350 950 
-Wire Wire Line
-	15500 950  15500 1050
 Wire Wire Line
 	15200 1450 15200 1550
 Wire Wire Line
@@ -599,4 +594,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 1550 2100 1550
 Connection ~ 2100 1550
+Wire Wire Line
+	15200 950  15350 950 
+Connection ~ 15350 950 
+Wire Wire Line
+	15500 1050 15500 1000
+Wire Wire Line
+	15500 1000 15350 1000
+Connection ~ 15350 1000
 $EndSCHEMATC

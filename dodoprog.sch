@@ -71,8 +71,6 @@ Wire Wire Line
 Wire Wire Line
 	10350 6900 9850 6900
 Connection ~ 10350 6250
-Wire Wire Line
-	9100 6350 9100 6900
 $Comp
 L GND #PWR?
 U 1 1 555DACE4
@@ -174,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 5700 9650 5900
 Wire Wire Line
-	9100 6900 9300 6900
+	9000 6900 9300 6900
 Wire Wire Line
 	9300 6900 9450 6900
 Connection ~ 9300 6900
@@ -602,4 +600,8 @@ Text Label 15000 2400 0    50   ~ 0
 LED-R
 Text Label 16250 2400 2    50   ~ 0
 LED-B
+Wire Wire Line
+	9100 6350 9000 6350
+Wire Wire Line
+	9000 6350 9000 6900
 $EndSCHEMATC

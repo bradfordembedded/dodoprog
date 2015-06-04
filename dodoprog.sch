@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Dodoprog"
-Date "2 jun 2015"
+Date "4 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -503,8 +503,6 @@ F 3 "~" H 11350 7050 60  0000 C CNN
 	1    11350 7050
 	1    0    0    -1  
 $EndComp
-Text Label 11050 6750 0    60   ~ 0
-VOUT
 Text Label 16150 7950 2    60   ~ 0
 I/O3
 Text Label 14350 7950 0    60   ~ 0
@@ -531,8 +529,6 @@ F 3 "~" H 11350 7850 60  0000 C CNN
 	1    11350 7850
 	1    0    0    -1  
 $EndComp
-Text Label 11050 7550 0    60   ~ 0
-VOUT
 $Comp
 L DRTR5VOU2SR D?
 U 1 1 556C33A2
@@ -555,8 +551,6 @@ F 3 "~" H 11350 8550 60  0000 C CNN
 	1    11350 8550
 	1    0    0    -1  
 $EndComp
-Text Label 11050 8250 0    60   ~ 0
-VOUT
 Text Label 12950 6750 2    60   ~ 0
 CS
 Text Label 12950 7550 2    60   ~ 0
@@ -838,8 +832,6 @@ Wire Wire Line
 Wire Wire Line
 	11350 6950 11350 7050
 Wire Wire Line
-	11450 6750 11050 6750
-Wire Wire Line
 	15750 7950 16150 7950
 Wire Wire Line
 	14750 7950 14350 7950
@@ -956,4 +948,9 @@ Wire Wire Line
 Wire Wire Line
 	13000 1900 13300 1900
 Connection ~ 13300 1900
+Wire Wire Line
+	11450 6750 11050 6750
+NoConn ~ 11050 6750
+NoConn ~ 11050 7550
+NoConn ~ 11050 8250
 $EndSCHEMATC

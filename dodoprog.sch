@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Dodoprog"
-Date "4 jun 2015"
+Date "5 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -1183,4 +1183,82 @@ Text Label 14200 1450 2    60   ~ 0
 I_SENS
 Text Notes 11350 2500 0    60   ~ 0
 I_SENS VOLTAGE RANGE: **** V TO **** V\nVOUT CURRENT OF 0 mA == **** V\nVOUT CURRENT OF 10 mA == **** V\nVOUT CURRENT OF 100 mA == **** V
+$Comp
+L SRF2012-900YA L?
+U 1 1 557168F9
+P 2300 3900
+F 0 "L?" H 2300 4050 60  0000 C CNN
+F 1 "SRF2012-900YA" H 2300 3700 60  0000 C CNN
+F 2 "~" H 2300 3900 60  0000 C CNN
+F 3 "~" H 2300 3900 60  0000 C CNN
+	1    2300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRTR5VOU2SR D?
+U 1 1 55716908
+P 2200 3200
+F 0 "D?" H 2200 3450 60  0000 C CNN
+F 1 "DRTR5VOU2SR" H 2200 2950 60  0000 C CNN
+F 2 "~" H 2200 3200 60  0000 C CNN
+F 3 "~" H 2200 3200 60  0000 C CNN
+	1    2200 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3100 900  3100
+Wire Wire Line
+	1650 3300 900  3300
+Wire Wire Line
+	1550 3100 1550 3800
+Wire Wire Line
+	1550 3800 1750 3800
+Connection ~ 1550 3100
+Wire Wire Line
+	1450 3300 1450 4000
+Wire Wire Line
+	1450 4000 1750 4000
+Connection ~ 1450 3300
+$Comp
+L +5V #PWR?
+U 1 1 55716C17
+P 2850 3000
+F 0 "#PWR?" H 2850 2960 30  0001 C CNN
+F 1 "+5V" H 2850 3110 30  0000 C CNN
+F 2 "~" H 2850 3000 60  0000 C CNN
+F 3 "~" H 2850 3000 60  0000 C CNN
+	1    2850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3300 2750 3300
+Wire Wire Line
+	2750 3100 2850 3100
+Wire Wire Line
+	2850 3100 2850 3000
+$Comp
+L SHLD #PWR?
+U 1 1 55716DBD
+P 2850 3400
+F 0 "#PWR?" H 2700 3400 30  0001 C CNN
+F 1 "SHLD" H 2850 3275 30  0000 C CNN
+F 2 "~" H 2850 3400 60  0000 C CNN
+F 3 "~" H 2850 3400 60  0000 C CNN
+	1    2850 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3300 2850 3400
+Text Label 900  3100 0    60   ~ 0
+DM
+Text Label 900  3300 0    60   ~ 0
+DP
+Wire Wire Line
+	2800 3800 3300 3800
+Wire Wire Line
+	2800 4000 3300 4000
+Text Label 3300 4000 2    60   ~ 0
+USB_DP
+Text Label 3300 3800 2    60   ~ 0
+USB_DM
 $EndSCHEMATC

@@ -6,9 +6,9 @@ EELAYER 27 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Dodoprog"
-Date "5 jun 2015"
+Date "9 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -2016,4 +2016,146 @@ Text Label 6700 9200 0    60   ~ 0
 U_DIR
 Text Notes 6250 10100 0    60   ~ 0
 ENSURE U_DIR PULLED DOWN\nTO AVOID DRIVING SPI OFF-BOARD\nWHEN MICRO IS UNCONTROLLED
+$Sheet
+S 3250 5200 1900 1800
+U 5576B4DD
+F0 "Dodoprog Micro" 50
+F1 "dodomicro.sch" 50
+$EndSheet
+Text HLabel 5150 5300 0    60   Input ~ 0
+DIR
+Text HLabel 5150 5400 0    60   Input ~ 0
+CS
+Text HLabel 5150 5500 0    60   Input ~ 0
+CLK
+Text HLabel 5150 5600 0    60   Input ~ 0
+MISO
+Text HLabel 5150 5700 0    60   Input ~ 0
+MOSI
+Text HLabel 5150 5800 0    60   Input ~ 0
+VPP/ACC
+Text HLabel 5150 5900 0    60   Input ~ 0
+I/O3
+Text HLabel 3250 6900 2    60   Input ~ 0
+SWDIO
+Text HLabel 3250 6800 2    60   Input ~ 0
+SWCLK
+Text HLabel 4200 7000 1    60   Input ~ 0
+GND
+Text HLabel 4200 5200 3    60   Input ~ 0
++3.3V
+Text HLabel 5150 6000 0    60   Input ~ 0
+VOUT_IN
+Text HLabel 5150 6200 0    60   Input ~ 0
+LED_R
+Text HLabel 5150 6300 0    60   Input ~ 0
+LED_G
+Text HLabel 5150 6400 0    60   Input ~ 0
+LED_B
+Text HLabel 5150 6500 0    60   Input ~ 0
+I_SENS
+Text HLabel 3250 5700 2    60   Input ~ 0
+USB_DM
+Text HLabel 3250 5800 2    60   Input ~ 0
+USB_DP
+Text HLabel 5150 6100 0    60   Input ~ 0
+VOUT_SET
+$Comp
+L +3.3V #PWR?
+U 1 1 5576BB2B
+P 4200 5050
+F 0 "#PWR?" H 4200 5010 30  0001 C CNN
+F 1 "+3.3V" H 4200 5160 30  0000 C CNN
+F 2 "~" H 4200 5050 60  0000 C CNN
+F 3 "~" H 4200 5050 60  0000 C CNN
+	1    4200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5050 4200 5200
+$Comp
+L GND #PWR?
+U 1 1 5576BC79
+P 4200 7150
+F 0 "#PWR?" H 4050 7150 30  0001 C CNN
+F 1 "GND" H 4200 7025 30  0000 C CNN
+F 2 "~" H 4200 7150 60  0000 C CNN
+F 3 "~" H 4200 7150 60  0000 C CNN
+	1    4200 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 7150 4200 7000
+Wire Wire Line
+	3250 6800 2650 6800
+Wire Wire Line
+	3250 6900 2650 6900
+Wire Wire Line
+	3250 5700 2650 5700
+Wire Wire Line
+	3250 5800 2650 5800
+Wire Wire Line
+	5150 5300 5750 5300
+Wire Wire Line
+	5150 5400 5750 5400
+Wire Wire Line
+	5150 5500 5750 5500
+Wire Wire Line
+	5150 5600 5750 5600
+Wire Wire Line
+	5150 5700 5750 5700
+Wire Wire Line
+	5150 5800 5750 5800
+Wire Wire Line
+	5150 5900 5750 5900
+Wire Wire Line
+	5150 6000 5750 6000
+Wire Wire Line
+	5150 6100 5750 6100
+Wire Wire Line
+	5150 6200 5750 6200
+Wire Wire Line
+	5150 6300 5750 6300
+Wire Wire Line
+	5150 6400 5750 6400
+Wire Wire Line
+	5150 6500 5750 6500
+Text Label 2650 5700 0    60   ~ 0
+USB_DM
+Text Label 2650 5800 0    60   ~ 0
+USB_DP
+Text Label 2650 6800 0    60   ~ 0
+SWCLK
+Text Label 2650 6900 0    60   ~ 0
+SWDIO
+Text Label 5750 5300 2    60   ~ 0
+U_DIR
+Text Label 5750 5400 2    60   ~ 0
+U_CS
+Text Label 5750 5500 2    60   ~ 0
+U_CLK
+Text Label 5750 5700 2    60   ~ 0
+U_MOSI
+Text Label 5750 5600 2    60   ~ 0
+U_MISO
+Text Label 5750 5800 2    60   ~ 0
+U_VPP/ACC
+Text Label 5750 5900 2    60   ~ 0
+U_I/O3
+Text Label 5750 6000 2    60   ~ 0
+VOUT
+Text Label 5750 6100 2    60   ~ 0
+VOUT_SET
+Text Label 5750 6200 2    60   ~ 0
+LED_R
+Text Label 5750 6300 2    60   ~ 0
+LED_G
+Text Label 5750 6400 2    60   ~ 0
+LED_B
+Text Label 5750 6500 2    60   ~ 0
+I_SENS
+Wire Wire Line
+	12450 3850 11800 3850
+Text Label 11800 3850 0    60   ~ 0
+VOUT_SET
 $EndSCHEMATC

@@ -128,9 +128,9 @@ F 3 "~" H 1100 1300 60  0000 C CNN
 	1    1250 1300
 	-1   0    0    -1  
 $EndComp
-Text Label 2100 1300 0    60   ~ 0
+Text Label 2100 1300 2    60   ~ 0
 DP
-Text Label 2100 1200 0    60   ~ 0
+Text Label 2100 1200 2    60   ~ 0
 DM
 $Comp
 L SHLD #PWR?
@@ -201,78 +201,78 @@ $EndComp
 $Comp
 L TLV70233DBV U?
 U 1 1 5566E414
-P 4700 1300
-F 0 "U?" H 4700 1650 60  0000 C CNN
-F 1 "TLV70233DBV" H 4700 950 60  0000 C CNN
-F 2 "~" H 4700 1300 60  0000 C CNN
-F 3 "~" H 4700 1300 60  0000 C CNN
-	1    4700 1300
+P 4500 1300
+F 0 "U?" H 4500 1650 60  0000 C CNN
+F 1 "TLV70233DBV" H 4500 950 60  0000 C CNN
+F 2 "~" H 4500 1300 60  0000 C CNN
+F 3 "~" H 4500 1300 60  0000 C CNN
+	1    4500 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L MI0805L301R-10 FB?
 U 1 1 5566E44B
-P 2900 1100
-F 0 "FB?" H 2900 1200 60  0000 C CNN
-F 1 "MI0805L301R-10" H 2900 1000 60  0000 C CNN
-F 2 "~" H 2900 1100 60  0000 C CNN
-F 3 "~" H 2900 1100 60  0000 C CNN
-	1    2900 1100
+P 2700 1100
+F 0 "FB?" H 2700 1200 60  0000 C CNN
+F 1 "MI0805L301R-10" H 2700 1000 60  0000 C CNN
+F 2 "~" H 2700 1100 60  0000 C CNN
+F 3 "~" H 2700 1100 60  0000 C CNN
+	1    2700 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L CAP C?
 U 1 1 5566E46E
-P 3550 1350
-F 0 "C?" H 3550 1450 40  0000 L CNN
-F 1 "CAP" H 3550 1300 40  0000 L CNN
-F 2 "~" H 3550 1350 60  0000 C CNN
-F 3 "~" H 3550 1350 60  0000 C CNN
-	1    3550 1350
+P 3350 1350
+F 0 "C?" H 3350 1450 40  0000 L CNN
+F 1 "CAP" H 3350 1300 40  0000 L CNN
+F 2 "~" H 3350 1350 60  0000 C CNN
+F 3 "~" H 3350 1350 60  0000 C CNN
+	1    3350 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5566E546
-P 3850 1500
-F 0 "#PWR?" H 3700 1500 30  0001 C CNN
-F 1 "GND" H 3850 1375 30  0000 C CNN
-F 2 "~" H 3850 1500 60  0000 C CNN
-F 3 "~" H 3850 1500 60  0000 C CNN
-	1    3850 1500
+P 3650 1500
+F 0 "#PWR?" H 3500 1500 30  0001 C CNN
+F 1 "GND" H 3650 1375 30  0000 C CNN
+F 2 "~" H 3650 1500 60  0000 C CNN
+F 3 "~" H 3650 1500 60  0000 C CNN
+	1    3650 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L CAP C?
 U 1 1 5566E6E8
-P 5500 1350
-F 0 "C?" H 5500 1450 40  0000 L CNN
-F 1 "CAP" H 5500 1300 40  0000 L CNN
-F 2 "~" H 5500 1350 60  0000 C CNN
-F 3 "~" H 5500 1350 60  0000 C CNN
-	1    5500 1350
+P 5300 1350
+F 0 "C?" H 5300 1450 40  0000 L CNN
+F 1 "CAP" H 5300 1300 40  0000 L CNN
+F 2 "~" H 5300 1350 60  0000 C CNN
+F 3 "~" H 5300 1350 60  0000 C CNN
+	1    5300 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5566E6F7
-P 5500 1550
-F 0 "#PWR?" H 5350 1550 30  0001 C CNN
-F 1 "GND" H 5500 1425 30  0000 C CNN
-F 2 "~" H 5500 1550 60  0000 C CNN
-F 3 "~" H 5500 1550 60  0000 C CNN
-	1    5500 1550
+P 5300 1550
+F 0 "#PWR?" H 5150 1550 30  0001 C CNN
+F 1 "GND" H 5300 1425 30  0000 C CNN
+F 2 "~" H 5300 1550 60  0000 C CNN
+F 3 "~" H 5300 1550 60  0000 C CNN
+	1    5300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 5566E7B0
-P 5500 1000
-F 0 "#PWR?" H 5500 960 30  0001 C CNN
-F 1 "+3.3V" H 5500 1110 30  0000 C CNN
-F 2 "~" H 5500 1000 60  0000 C CNN
-F 3 "~" H 5500 1000 60  0000 C CNN
-	1    5500 1000
+P 5300 1000
+F 0 "#PWR?" H 5300 960 30  0001 C CNN
+F 1 "+3.3V" H 5300 1110 30  0000 C CNN
+F 2 "~" H 5300 1000 60  0000 C CNN
+F 3 "~" H 5300 1000 60  0000 C CNN
+	1    5300 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -383,25 +383,12 @@ LED-B
 $Comp
 L +5V #PWR?
 U 1 1 55683C21
-P 3450 1000
-F 0 "#PWR?" H 3450 960 30  0001 C CNN
-F 1 "+5V" H 3450 1110 30  0000 C CNN
-F 2 "~" H 3450 1000 60  0000 C CNN
-F 3 "~" H 3450 1000 60  0000 C CNN
-	1    3450 1000
-	1    0    0    -1  
-$EndComp
-Text Label 2100 1100 0    50   ~ 0
-USB_VCC
-$Comp
-L CAP C?
-U 1 1 55683C9A
-P 2350 1350
-F 0 "C?" H 2350 1450 40  0000 L CNN
-F 1 "CAP" H 2350 1300 40  0000 L CNN
-F 2 "~" H 2350 1350 60  0000 C CNN
-F 3 "~" H 2350 1350 60  0000 C CNN
-	1    2350 1350
+P 3250 1000
+F 0 "#PWR?" H 3250 960 30  0001 C CNN
+F 1 "+5V" H 3250 1110 30  0000 C CNN
+F 2 "~" H 3250 1000 60  0000 C CNN
+F 3 "~" H 3250 1000 60  0000 C CNN
+	1    3250 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1391,6 +1378,145 @@ F 3 "~" H 10600 10100 60  0000 C CNN
 	1    10600 10100
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R?
+U 1 1 5571AD30
+P 7250 9500
+F 0 "R?" H 7250 9425 40  0000 C CNN
+F 1 "100K" H 7250 9500 30  0000 C CNN
+F 2 "~" H 7250 9475 60  0000 C CNN
+F 3 "~" H 7250 9475 60  0000 C CNN
+	1    7250 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5571AD3F
+P 7250 9800
+F 0 "#PWR?" H 7100 9800 30  0001 C CNN
+F 1 "GND" H 7250 9675 30  0000 C CNN
+F 2 "~" H 7250 9800 60  0000 C CNN
+F 3 "~" H 7250 9800 60  0000 C CNN
+	1    7250 9800
+	1    0    0    -1  
+$EndComp
+Text Label 6700 9200 0    60   ~ 0
+U_DIR
+Text Notes 6250 10100 0    60   ~ 0
+ENSURE U_DIR PULLED DOWN\nTO AVOID DRIVING SPI OFF-BOARD\nWHEN MICRO IS UNCONTROLLED
+$Sheet
+S 3250 5200 1900 1800
+U 5576B4DD
+F0 "Dodoprog Micro" 50
+F1 "dodomicro.sch" 50
+$EndSheet
+Text HLabel 5150 5300 0    60   Input ~ 0
+DIR
+Text HLabel 5150 5400 0    60   Input ~ 0
+CS
+Text HLabel 5150 5500 0    60   Input ~ 0
+CLK
+Text HLabel 5150 5600 0    60   Input ~ 0
+MISO
+Text HLabel 5150 5700 0    60   Input ~ 0
+MOSI
+Text HLabel 5150 5800 0    60   Input ~ 0
+VPP/ACC
+Text HLabel 5150 5900 0    60   Input ~ 0
+I/O3
+Text HLabel 3250 6900 2    60   Input ~ 0
+SWDIO
+Text HLabel 3250 6800 2    60   Input ~ 0
+SWCLK
+Text HLabel 4200 7000 1    60   Input ~ 0
+GND
+Text HLabel 4200 5200 3    60   Input ~ 0
++3.3V
+Text HLabel 5150 6000 0    60   Input ~ 0
+VOUT_IN
+Text HLabel 5150 6200 0    60   Input ~ 0
+LED_R
+Text HLabel 5150 6300 0    60   Input ~ 0
+LED_G
+Text HLabel 5150 6400 0    60   Input ~ 0
+LED_B
+Text HLabel 5150 6500 0    60   Input ~ 0
+I_SENS
+Text HLabel 3250 5700 2    60   Input ~ 0
+USB_DM
+Text HLabel 3250 5800 2    60   Input ~ 0
+USB_DP
+Text HLabel 5150 6100 0    60   Input ~ 0
+VOUT_SET
+$Comp
+L +3.3V #PWR?
+U 1 1 5576BB2B
+P 4200 5050
+F 0 "#PWR?" H 4200 5010 30  0001 C CNN
+F 1 "+3.3V" H 4200 5160 30  0000 C CNN
+F 2 "~" H 4200 5050 60  0000 C CNN
+F 3 "~" H 4200 5050 60  0000 C CNN
+	1    4200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5576BC79
+P 4200 7150
+F 0 "#PWR?" H 4050 7150 30  0001 C CNN
+F 1 "GND" H 4200 7025 30  0000 C CNN
+F 2 "~" H 4200 7150 60  0000 C CNN
+F 3 "~" H 4200 7150 60  0000 C CNN
+	1    4200 7150
+	1    0    0    -1  
+$EndComp
+Text Label 2650 5700 0    60   ~ 0
+USB_DM
+Text Label 2650 5800 0    60   ~ 0
+USB_DP
+Text Label 2650 6800 0    60   ~ 0
+SWCLK
+Text Label 2650 6900 0    60   ~ 0
+SWDIO
+Text Label 5750 5300 2    60   ~ 0
+U_DIR
+Text Label 5750 5400 2    60   ~ 0
+U_CS
+Text Label 5750 5500 2    60   ~ 0
+U_CLK
+Text Label 5750 5700 2    60   ~ 0
+U_MOSI
+Text Label 5750 5600 2    60   ~ 0
+U_MISO
+Text Label 5750 5800 2    60   ~ 0
+U_VPP/ACC
+Text Label 5750 5900 2    60   ~ 0
+U_I/O3
+Text Label 5750 6000 2    60   ~ 0
+VOUT
+Text Label 5750 6100 2    60   ~ 0
+VOUT_SET
+Text Label 5750 6200 2    60   ~ 0
+LED_R
+Text Label 5750 6300 2    60   ~ 0
+LED_G
+Text Label 5750 6400 2    60   ~ 0
+LED_B
+Text Label 5750 6500 2    60   ~ 0
+I_SENS
+Text Label 11800 3850 0    60   ~ 0
+VOUT_SET
+$Comp
+L MI0805L301R-10 FB?
+U 1 1 5576DA90
+P 13700 6700
+F 0 "FB?" H 13700 6800 60  0000 C CNN
+F 1 "MI0805L301R-10" H 13700 6600 60  0000 C CNN
+F 2 "~" H 13700 6700 60  0000 C CNN
+F 3 "~" H 13700 6700 60  0000 C CNN
+	1    13700 6700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	13650 3950 13650 4600
 Wire Wire Line
@@ -1421,27 +1547,27 @@ Wire Wire Line
 	1350 2200 1350 2500
 Connection ~ 1350 2350
 Wire Wire Line
-	3100 1100 4150 1100
+	2900 1100 3950 1100
 Wire Wire Line
-	4150 1250 4000 1250
+	3950 1250 3800 1250
 Wire Wire Line
-	4000 1250 4000 1100
-Connection ~ 4000 1100
+	3800 1250 3800 1100
+Connection ~ 3800 1100
 Wire Wire Line
-	3550 1200 3550 1100
-Connection ~ 3550 1100
+	3350 1200 3350 1100
+Connection ~ 3350 1100
 Wire Wire Line
-	3550 1450 3550 1500
+	3350 1450 3350 1500
 Wire Wire Line
-	3550 1500 4150 1500
-Connection ~ 3850 1500
+	3350 1500 3950 1500
+Connection ~ 3650 1500
 Wire Wire Line
-	5500 1550 5500 1450
+	5300 1550 5300 1450
 Wire Wire Line
-	5250 1100 5500 1100
+	5050 1100 5300 1100
 Wire Wire Line
-	5500 1000 5500 1200
-Connection ~ 5500 1100
+	5300 1000 5300 1200
+Connection ~ 5300 1100
 Wire Wire Line
 	14850 2600 14850 2850
 Wire Wire Line
@@ -1489,14 +1615,8 @@ Wire Wire Line
 Wire Wire Line
 	12300 4050 12300 4600
 Wire Wire Line
-	3450 1000 3450 1100
-Connection ~ 3450 1100
-Wire Wire Line
-	2350 1100 2350 1200
-Wire Wire Line
-	2350 1450 2350 1550
-Wire Wire Line
-	2350 1550 2100 1550
+	3250 1000 3250 1100
+Connection ~ 3250 1100
 Wire Wire Line
 	15200 950  15350 950 
 Connection ~ 15350 950 
@@ -1725,9 +1845,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 4000 3300 4000
 Wire Wire Line
-	1800 1100 2650 1100
-Connection ~ 2350 1100
-Wire Wire Line
 	2100 1200 1800 1200
 Wire Wire Line
 	2100 1300 1800 1300
@@ -1738,7 +1855,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 1500 2100 1500
 Connection ~ 2100 1500
-Connection ~ 2100 1550
 Wire Wire Line
 	700  1100 600  1100
 Wire Wire Line
@@ -1952,106 +2068,14 @@ Wire Wire Line
 Wire Wire Line
 	10600 9750 10600 9800
 Connection ~ 8300 7600
-$Comp
-L R R?
-U 1 1 5571AD30
-P 7250 9500
-F 0 "R?" H 7250 9425 40  0000 C CNN
-F 1 "100K" H 7250 9500 30  0000 C CNN
-F 2 "~" H 7250 9475 60  0000 C CNN
-F 3 "~" H 7250 9475 60  0000 C CNN
-	1    7250 9500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5571AD3F
-P 7250 9800
-F 0 "#PWR?" H 7100 9800 30  0001 C CNN
-F 1 "GND" H 7250 9675 30  0000 C CNN
-F 2 "~" H 7250 9800 60  0000 C CNN
-F 3 "~" H 7250 9800 60  0000 C CNN
-	1    7250 9800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 9800 7250 9700
 Wire Wire Line
 	7250 9300 7250 9200
 Wire Wire Line
 	7250 9200 6700 9200
-Text Label 6700 9200 0    60   ~ 0
-U_DIR
-Text Notes 6250 10100 0    60   ~ 0
-ENSURE U_DIR PULLED DOWN\nTO AVOID DRIVING SPI OFF-BOARD\nWHEN MICRO IS UNCONTROLLED
-$Sheet
-S 3250 5200 1900 1800
-U 5576B4DD
-F0 "Dodoprog Micro" 50
-F1 "dodomicro.sch" 50
-$EndSheet
-Text HLabel 5150 5300 0    60   Input ~ 0
-DIR
-Text HLabel 5150 5400 0    60   Input ~ 0
-CS
-Text HLabel 5150 5500 0    60   Input ~ 0
-CLK
-Text HLabel 5150 5600 0    60   Input ~ 0
-MISO
-Text HLabel 5150 5700 0    60   Input ~ 0
-MOSI
-Text HLabel 5150 5800 0    60   Input ~ 0
-VPP/ACC
-Text HLabel 5150 5900 0    60   Input ~ 0
-I/O3
-Text HLabel 3250 6900 2    60   Input ~ 0
-SWDIO
-Text HLabel 3250 6800 2    60   Input ~ 0
-SWCLK
-Text HLabel 4200 7000 1    60   Input ~ 0
-GND
-Text HLabel 4200 5200 3    60   Input ~ 0
-+3.3V
-Text HLabel 5150 6000 0    60   Input ~ 0
-VOUT_IN
-Text HLabel 5150 6200 0    60   Input ~ 0
-LED_R
-Text HLabel 5150 6300 0    60   Input ~ 0
-LED_G
-Text HLabel 5150 6400 0    60   Input ~ 0
-LED_B
-Text HLabel 5150 6500 0    60   Input ~ 0
-I_SENS
-Text HLabel 3250 5700 2    60   Input ~ 0
-USB_DM
-Text HLabel 3250 5800 2    60   Input ~ 0
-USB_DP
-Text HLabel 5150 6100 0    60   Input ~ 0
-VOUT_SET
-$Comp
-L +3.3V #PWR?
-U 1 1 5576BB2B
-P 4200 5050
-F 0 "#PWR?" H 4200 5010 30  0001 C CNN
-F 1 "+3.3V" H 4200 5160 30  0000 C CNN
-F 2 "~" H 4200 5050 60  0000 C CNN
-F 3 "~" H 4200 5050 60  0000 C CNN
-	1    4200 5050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 5050 4200 5200
-$Comp
-L GND #PWR?
-U 1 1 5576BC79
-P 4200 7150
-F 0 "#PWR?" H 4050 7150 30  0001 C CNN
-F 1 "GND" H 4200 7025 30  0000 C CNN
-F 2 "~" H 4200 7150 60  0000 C CNN
-F 3 "~" H 4200 7150 60  0000 C CNN
-	1    4200 7150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 7150 4200 7000
 Wire Wire Line
@@ -2088,55 +2112,8 @@ Wire Wire Line
 	5150 6400 5750 6400
 Wire Wire Line
 	5150 6500 5750 6500
-Text Label 2650 5700 0    60   ~ 0
-USB_DM
-Text Label 2650 5800 0    60   ~ 0
-USB_DP
-Text Label 2650 6800 0    60   ~ 0
-SWCLK
-Text Label 2650 6900 0    60   ~ 0
-SWDIO
-Text Label 5750 5300 2    60   ~ 0
-U_DIR
-Text Label 5750 5400 2    60   ~ 0
-U_CS
-Text Label 5750 5500 2    60   ~ 0
-U_CLK
-Text Label 5750 5700 2    60   ~ 0
-U_MOSI
-Text Label 5750 5600 2    60   ~ 0
-U_MISO
-Text Label 5750 5800 2    60   ~ 0
-U_VPP/ACC
-Text Label 5750 5900 2    60   ~ 0
-U_I/O3
-Text Label 5750 6000 2    60   ~ 0
-VOUT
-Text Label 5750 6100 2    60   ~ 0
-VOUT_SET
-Text Label 5750 6200 2    60   ~ 0
-LED_R
-Text Label 5750 6300 2    60   ~ 0
-LED_G
-Text Label 5750 6400 2    60   ~ 0
-LED_B
-Text Label 5750 6500 2    60   ~ 0
-I_SENS
 Wire Wire Line
 	12450 3850 11800 3850
-Text Label 11800 3850 0    60   ~ 0
-VOUT_SET
-$Comp
-L MI0805L301R-10 FB?
-U 1 1 5576DA90
-P 13700 6700
-F 0 "FB?" H 13700 6800 60  0000 C CNN
-F 1 "MI0805L301R-10" H 13700 6600 60  0000 C CNN
-F 2 "~" H 13700 6700 60  0000 C CNN
-F 3 "~" H 13700 6700 60  0000 C CNN
-	1    13700 6700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13900 6700 14750 6700
 Wire Wire Line
@@ -2149,4 +2126,6 @@ Wire Wire Line
 Wire Wire Line
 	13100 6700 13450 6700
 Connection ~ 13200 6700
+Wire Wire Line
+	1800 1100 2450 1100
 $EndSCHEMATC

@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 2
 Title "Dodoprog"
-Date "9 jun 2015"
+Date "10 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -2128,4 +2128,112 @@ Wire Wire Line
 Connection ~ 13200 6700
 Wire Wire Line
 	1800 1100 2450 1100
+$Comp
+L HEADER-4PIN J?
+U 1 1 5578032C
+P 1250 5600
+F 0 "J?" H 1450 6150 60  0000 C CNN
+F 1 "HEADER-4PIN" H 1450 5550 60  0000 C CNN
+F 2 "~" H 950 5900 60  0000 C CNN
+F 3 "~" H 950 5900 60  0000 C CNN
+	1    1250 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DRTR5VOU2SR D?
+U 1 1 55780339
+P 1300 6300
+F 0 "D?" H 1300 6550 60  0000 C CNN
+F 1 "DRTR5VOU2SR" H 1300 6050 60  0000 C CNN
+F 2 "~" H 1300 6300 60  0000 C CNN
+F 3 "~" H 1300 6300 60  0000 C CNN
+	1    1300 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 55780349
+P 650 6100
+F 0 "#PWR?" H 650 6060 30  0001 C CNN
+F 1 "+5V" H 650 6210 30  0000 C CNN
+F 2 "~" H 650 6100 60  0000 C CNN
+F 3 "~" H 650 6100 60  0000 C CNN
+	1    650  6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SHLD #PWR?
+U 1 1 5578034F
+P 650 6500
+F 0 "#PWR?" H 500 6500 30  0001 C CNN
+F 1 "SHLD" H 650 6375 30  0000 C CNN
+F 2 "~" H 650 6500 60  0000 C CNN
+F 3 "~" H 650 6500 60  0000 C CNN
+	1    650  6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5600 1650 5500
+Wire Wire Line
+	1650 5500 1550 5500
+Wire Wire Line
+	650  6100 650  6200
+Wire Wire Line
+	650  6200 750  6200
+Wire Wire Line
+	750  6400 650  6400
+Wire Wire Line
+	650  6400 650  6500
+$Comp
+L GND #PWR?
+U 1 1 557808BD
+P 1650 5600
+F 0 "#PWR?" H 1500 5600 30  0001 C CNN
+F 1 "GND" H 1650 5475 30  0000 C CNN
+F 2 "~" H 1650 5600 60  0000 C CNN
+F 3 "~" H 1650 5600 60  0000 C CNN
+	1    1650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 557808CC
+P 1650 5100
+F 0 "#PWR?" H 1650 5060 30  0001 C CNN
+F 1 "+3.3V" H 1650 5210 30  0000 C CNN
+F 2 "~" H 1650 5100 60  0000 C CNN
+F 3 "~" H 1650 5100 60  0000 C CNN
+	1    1650 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5100 1650 5200
+Wire Wire Line
+	1650 5200 1550 5200
+Text HLabel 3250 6350 2    60   Input ~ 0
+UART_TX
+Text HLabel 3250 6250 2    60   Input ~ 0
+UART_RX
+Wire Wire Line
+	1550 5300 2250 5300
+Wire Wire Line
+	1550 5400 2150 5400
+Wire Wire Line
+	2150 5400 2150 6400
+Wire Wire Line
+	1850 6200 2450 6200
+Wire Wire Line
+	2450 6200 2450 6250
+Wire Wire Line
+	2450 6250 3250 6250
+Wire Wire Line
+	3250 6350 2450 6350
+Wire Wire Line
+	2450 6350 2450 6400
+Wire Wire Line
+	2450 6400 1850 6400
+Connection ~ 2150 6400
+Wire Wire Line
+	2250 5300 2250 6200
+Connection ~ 2250 6200
 $EndSCHEMATC

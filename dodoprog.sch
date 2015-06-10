@@ -1404,72 +1404,6 @@ Text Label 6700 9200 0    60   ~ 0
 U_DIR
 Text Notes 6250 10100 0    60   ~ 0
 ENSURE U_DIR PULLED DOWN\nTO AVOID DRIVING SPI OFF-BOARD\nWHEN MICRO IS UNCONTROLLED
-$Sheet
-S 3250 5200 1900 1800
-U 5576B4DD
-F0 "Dodoprog Micro" 50
-F1 "dodomicro.sch" 50
-$EndSheet
-Text HLabel 5150 5300 0    60   Input ~ 0
-DIR
-Text HLabel 5150 5400 0    60   Input ~ 0
-CS
-Text HLabel 5150 5500 0    60   Input ~ 0
-CLK
-Text HLabel 5150 5600 0    60   Input ~ 0
-MISO
-Text HLabel 5150 5700 0    60   Input ~ 0
-MOSI
-Text HLabel 5150 5800 0    60   Input ~ 0
-VPP/ACC
-Text HLabel 5150 5900 0    60   Input ~ 0
-I/O3
-Text HLabel 3250 6900 2    60   Input ~ 0
-SWDIO
-Text HLabel 3250 6800 2    60   Input ~ 0
-SWCLK
-Text HLabel 4200 7000 1    60   Input ~ 0
-GND
-Text HLabel 4200 5200 3    60   Input ~ 0
-+3.3V
-Text HLabel 5150 6000 0    60   Input ~ 0
-VOUT_IN
-Text HLabel 5150 6200 0    60   Input ~ 0
-LED_R
-Text HLabel 5150 6300 0    60   Input ~ 0
-LED_G
-Text HLabel 5150 6400 0    60   Input ~ 0
-LED_B
-Text HLabel 5150 6500 0    60   Input ~ 0
-I_SENS
-Text HLabel 3250 5700 2    60   Input ~ 0
-USB_DM
-Text HLabel 3250 5800 2    60   Input ~ 0
-USB_DP
-Text HLabel 5150 6100 0    60   Input ~ 0
-VOUT_SET
-$Comp
-L +3.3V #PWR?
-U 1 1 5576BB2B
-P 4200 5050
-F 0 "#PWR?" H 4200 5010 30  0001 C CNN
-F 1 "+3.3V" H 4200 5160 30  0000 C CNN
-F 2 "~" H 4200 5050 60  0000 C CNN
-F 3 "~" H 4200 5050 60  0000 C CNN
-	1    4200 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5576BC79
-P 4200 7150
-F 0 "#PWR?" H 4050 7150 30  0001 C CNN
-F 1 "GND" H 4200 7025 30  0000 C CNN
-F 2 "~" H 4200 7150 60  0000 C CNN
-F 3 "~" H 4200 7150 60  0000 C CNN
-	1    4200 7150
-	1    0    0    -1  
-$EndComp
 Text Label 2650 5700 0    60   ~ 0
 USB_DM
 Text Label 2650 5800 0    60   ~ 0
@@ -2075,10 +2009,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 9200 6700 9200
 Wire Wire Line
-	4200 5050 4200 5200
-Wire Wire Line
-	4200 7150 4200 7000
-Wire Wire Line
 	3250 6800 2650 6800
 Wire Wire Line
 	3250 6900 2650 6900
@@ -2210,10 +2140,6 @@ Wire Wire Line
 	1650 5100 1650 5200
 Wire Wire Line
 	1650 5200 1550 5200
-Text HLabel 3250 6350 2    60   Input ~ 0
-UART_TX
-Text HLabel 3250 6250 2    60   Input ~ 0
-UART_RX
 Wire Wire Line
 	1550 5300 2250 5300
 Wire Wire Line
@@ -2236,4 +2162,29 @@ Connection ~ 2150 6400
 Wire Wire Line
 	2250 5300 2250 6200
 Connection ~ 2250 6200
+$Sheet
+S 3250 5200 1900 1800
+U 5576B4DD
+F0 "Dodoprog Micro" 50
+F1 "dodomicro.sch" 50
+F2 "SWCLK" I L 3250 6800 60 
+F3 "SWDIO" B L 3250 6900 60 
+F4 "UART_TX" O L 3250 6250 60 
+F5 "UART_RX" I L 3250 6350 60 
+F6 "USB_DM" B L 3250 5700 60 
+F7 "USB_DP" B L 3250 5800 60 
+F8 "U_DIR" O R 5150 5300 60 
+F9 "U_CS" B R 5150 5400 60 
+F10 "U_CLK" B R 5150 5500 60 
+F11 "U_MISO" B R 5150 5600 60 
+F12 "U_MOSI" B R 5150 5700 60 
+F13 "U_VPP/ACC" B R 5150 5800 60 
+F14 "U_I/O3" B R 5150 5900 60 
+F15 "VOUT" I R 5150 6000 60 
+F16 "VOUT_SET" O R 5150 6100 60 
+F17 "LED_R" O R 5150 6200 60 
+F18 "LED_G" O R 5150 6300 60 
+F19 "LED_B" O R 5150 6400 60 
+F20 "I_SENS" I R 5150 6500 60 
+$EndSheet
 $EndSCHEMATC

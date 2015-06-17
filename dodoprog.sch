@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 2
 Title "Dodoprog"
-Date "11 jun 2015"
+Date "17 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -117,41 +117,19 @@ F 3 "~" H 14000 3600 60  0000 C CNN
 	1    14000 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L USB-MICRO-B J?
-U 1 1 5566E110
-P 1250 1300
-F 0 "J?" H 1250 1650 60  0000 C CNN
-F 1 "USB-MICRO-B" H 1250 850 60  0000 C CNN
-F 2 "~" H 1100 1300 60  0000 C CNN
-F 3 "~" H 1100 1300 60  0000 C CNN
-	1    1250 1300
-	-1   0    0    -1  
-$EndComp
-Text Label 2100 1300 2    60   ~ 0
+Text Label 2100 1250 2    60   ~ 0
 DP
-Text Label 2100 1200 2    60   ~ 0
+Text Label 2100 1400 2    60   ~ 0
 DM
-$Comp
-L SHLD #PWR?
-U 1 1 5566E1F4
-P 600 1700
-F 0 "#PWR?" H 450 1700 30  0001 C CNN
-F 1 "SHLD" H 600 1575 30  0000 C CNN
-F 2 "~" H 600 1700 60  0000 C CNN
-F 3 "~" H 600 1700 60  0000 C CNN
-	1    600  1700
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR?
 U 1 1 5566E203
-P 2100 1650
-F 0 "#PWR?" H 1950 1650 30  0001 C CNN
-F 1 "GND" H 2100 1525 30  0000 C CNN
-F 2 "~" H 2100 1650 60  0000 C CNN
-F 3 "~" H 2100 1650 60  0000 C CNN
-	1    2100 1650
+P 2100 1700
+F 0 "#PWR?" H 1950 1700 30  0001 C CNN
+F 1 "GND" H 2100 1575 30  0000 C CNN
+F 2 "~" H 2100 1700 60  0000 C CNN
+F 3 "~" H 2100 1700 60  0000 C CNN
+	1    2100 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1760,35 +1738,11 @@ Wire Wire Line
 Wire Wire Line
 	2800 4000 3300 4000
 Wire Wire Line
-	2100 1200 1800 1200
+	2100 1400 1800 1400
 Wire Wire Line
-	2100 1300 1800 1300
+	2100 1250 1800 1250
 Wire Wire Line
-	1800 1400 2100 1400
-Wire Wire Line
-	2100 1400 2100 1650
-Wire Wire Line
-	1800 1500 2100 1500
-Connection ~ 2100 1500
-Wire Wire Line
-	700  1100 600  1100
-Wire Wire Line
-	600  1100 600  1700
-Wire Wire Line
-	700  1200 600  1200
-Connection ~ 600  1200
-Wire Wire Line
-	700  1300 600  1300
-Connection ~ 600  1300
-Wire Wire Line
-	700  1400 600  1400
-Connection ~ 600  1400
-Wire Wire Line
-	700  1500 600  1500
-Connection ~ 600  1500
-Wire Wire Line
-	700  1600 600  1600
-Connection ~ 600  1600
+	1800 1550 2100 1550
 Wire Wire Line
 	2550 9150 2550 10050
 Wire Wire Line
@@ -2380,4 +2334,35 @@ F 3 "" H 2950 1850 60  0000 C CNN
 	1    2750 1550
 	1    0    0    -1  
 $EndComp
+$Comp
+L USB-CONN J?
+U 1 1 5581711D
+P 1350 1550
+F 0 "J?" H 1400 2150 60  0000 C CNN
+F 1 "USB-CONN" H 1450 1150 60  0000 C CNN
+F 2 "~" H 1350 1550 60  0000 C CNN
+F 3 "~" H 1350 1550 60  0000 C CNN
+	1    1350 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SHLD #PWR?
+U 1 1 55817214
+P 1900 1900
+F 0 "#PWR?" H 1750 1900 30  0001 C CNN
+F 1 "SHLD" H 1900 1775 30  0000 C CNN
+F 2 "~" H 1900 1900 60  0000 C CNN
+F 3 "~" H 1900 1900 60  0000 C CNN
+	1    1900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1700 1900 1900
+Wire Wire Line
+	1900 1800 1800 1800
+Wire Wire Line
+	1800 1700 1900 1700
+Connection ~ 1900 1800
+Wire Wire Line
+	2100 1550 2100 1700
 $EndSCHEMATC

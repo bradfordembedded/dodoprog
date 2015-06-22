@@ -616,8 +616,6 @@ F 4 "RL0603FR-070R33L" H 15200 1200 60  0000 C CNN "PN"
 $EndComp
 Text Label 16150 1150 2    60   ~ 0
 VOUT
-Text Label 14550 700  3    60   ~ 0
-VOUT_H
 Text Label 16150 1850 2    60   ~ 0
 I_SENS
 Text Notes 14550 2650 0    60   ~ 0
@@ -1867,9 +1865,6 @@ Wire Wire Line
 Connection ~ 14450 1150
 Wire Wire Line
 	15400 1150 16150 1150
-Wire Wire Line
-	14550 1150 14550 700 
-Connection ~ 14550 1150
 Wire Wire Line
 	900  3100 1650 3100
 Wire Wire Line

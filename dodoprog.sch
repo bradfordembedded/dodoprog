@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 2
 Title "Dodoprog"
-Date "19 jun 2015"
+Date "22 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -526,9 +526,9 @@ F 3 "~" H 1050 9400 60  0000 C CNN
 	1    1350 9400
 	-1   0    0    -1  
 $EndComp
-Text Label 3600 9100 2    60   ~ 0
+Text Label 2100 9400 2    60   ~ 0
 SWCLK
-Text Label 3600 9000 2    60   ~ 0
+Text Label 2100 9600 2    60   ~ 0
 SWDIO
 Text Label 2100 9700 2    60   ~ 0
 RESET
@@ -663,17 +663,6 @@ Text Label 2250 4000 2    60   ~ 0
 USB_DP
 Text Label 2250 3800 2    60   ~ 0
 USB_DM
-$Comp
-L DRTR5VOU2SR D?
-U 1 1 557183D1
-P 3500 9500
-F 0 "D?" H 3500 9750 60  0000 C CNN
-F 1 "DRTR5VOU2SR" H 3500 9250 60  0000 C CNN
-F 2 "~" H 3500 9500 60  0000 C CNN
-F 3 "~" H 3500 9500 60  0000 C CNN
-	1    3500 9500
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 2100 9800
 $Comp
 L +3.3V #PWR?
@@ -706,28 +695,6 @@ F 1 "4.7N" H 2350 9850 40  0000 L CNN
 F 2 "~" H 2350 9900 60  0000 C CNN
 F 3 "~" H 2350 9900 60  0000 C CNN
 	1    2350 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 55719602
-P 4150 9300
-F 0 "#PWR?" H 4150 9260 30  0001 C CNN
-F 1 "+5V" H 4150 9410 30  0000 C CNN
-F 2 "~" H 4150 9300 60  0000 C CNN
-F 3 "~" H 4150 9300 60  0000 C CNN
-	1    4150 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L SHLD #PWR?
-U 1 1 55719620
-P 4150 9650
-F 0 "#PWR?" H 4000 9650 30  0001 C CNN
-F 1 "SHLD" H 4150 9525 30  0000 C CNN
-F 2 "~" H 4150 9650 60  0000 C CNN
-F 3 "~" H 4150 9650 60  0000 C CNN
-	1    4150 9650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1402,40 +1369,6 @@ F 3 "~" H 2350 9075 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DRTR5VOU2SR D?
-U 1 1 55789192
-P 3500 10200
-F 0 "D?" H 3500 10450 60  0000 C CNN
-F 1 "DRTR5VOU2SR" H 3500 9950 60  0000 C CNN
-F 2 "~" H 3500 10200 60  0000 C CNN
-F 3 "~" H 3500 10200 60  0000 C CNN
-	1    3500 10200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 55789282
-P 4150 10000
-F 0 "#PWR?" H 4150 9960 30  0001 C CNN
-F 1 "+5V" H 4150 10110 30  0000 C CNN
-F 2 "~" H 4150 10000 60  0000 C CNN
-F 3 "~" H 4150 10000 60  0000 C CNN
-	1    4150 10000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SHLD #PWR?
-U 1 1 55789298
-P 4150 10350
-F 0 "#PWR?" H 4000 10350 30  0001 C CNN
-F 1 "SHLD" H 4150 10225 30  0000 C CNN
-F 2 "~" H 4150 10350 60  0000 C CNN
-F 3 "~" H 4150 10350 60  0000 C CNN
-	1    4150 10350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2850 10100
-$Comp
 L +5V #PWR?
 U 1 1 5578B348
 P 11350 8200
@@ -1925,11 +1858,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 9300 1650 9300
 Wire Wire Line
-	1650 9400 2950 9400
-Wire Wire Line
 	1650 9500 2550 9500
-Wire Wire Line
-	1650 9600 2950 9600
 Wire Wire Line
 	1650 9700 2350 9700
 Wire Wire Line
@@ -1981,12 +1910,12 @@ Wire Wire Line
 Wire Wire Line
 	1550 3100 1550 3800
 Wire Wire Line
-	1550 3800 1750 3800
+	1550 3800 2250 3800
 Connection ~ 1550 3100
 Wire Wire Line
 	1450 3300 1450 4000
 Wire Wire Line
-	1450 4000 1750 4000
+	1450 4000 2250 4000
 Connection ~ 1450 3300
 Wire Wire Line
 	2850 3300 2750 3300
@@ -1996,10 +1925,6 @@ Wire Wire Line
 	2850 3100 2850 3000
 Wire Wire Line
 	2850 3300 2850 3400
-Wire Wire Line
-	1750 3800 2250 3800
-Wire Wire Line
-	1750 4000 2250 4000
 Wire Wire Line
 	2100 1400 1800 1400
 Wire Wire Line
@@ -2022,22 +1947,6 @@ Connection ~ 2350 9700
 Wire Wire Line
 	2550 10000 2350 10000
 Connection ~ 2550 10000
-Wire Wire Line
-	2900 9400 2900 9100
-Wire Wire Line
-	2900 9100 3600 9100
-Connection ~ 2900 9400
-Wire Wire Line
-	2800 9600 2800 9000
-Wire Wire Line
-	2800 9000 3600 9000
-Connection ~ 2800 9600
-Wire Wire Line
-	4150 9300 4150 9400
-Wire Wire Line
-	4150 9400 4050 9400
-Wire Wire Line
-	4050 9600 4150 9600
 Wire Wire Line
 	10000 4450 10600 4450
 Wire Wire Line
@@ -2305,23 +2214,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 9300 2350 9750
 Wire Wire Line
-	4050 10300 4150 10300
-Wire Wire Line
-	4150 10300 4150 10350
-Wire Wire Line
-	4050 10100 4150 10100
-Wire Wire Line
-	4150 10100 4150 10000
-Wire Wire Line
-	4150 9600 4150 9650
-Wire Wire Line
-	2200 9700 2200 10300
-Wire Wire Line
-	2200 10300 2950 10300
-Connection ~ 2200 9700
-Wire Wire Line
-	2950 10100 2850 10100
-Wire Wire Line
 	11350 8200 11350 8250
 Wire Wire Line
 	11350 8250 11450 8250
@@ -2526,4 +2418,8 @@ Wire Wire Line
 	6050 5300 6050 5350
 Text Notes 13150 5750 0    60   ~ 0
 ALL LEDs SET TO OUTPUT APPROX 100 mcd
+Wire Wire Line
+	1650 9600 2100 9600
+Wire Wire Line
+	1650 9400 2100 9400
 $EndSCHEMATC

@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 2
 Title "Dodoprog"
-Date "22 jun 2015"
+Date "24 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -16,4 +16,63 @@ Comment2 "Licensed under the CERN OHL v1.2"
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1100 750  0    60   BiDi ~ 0
+USB_DP
+Text HLabel 1100 900  0    60   BiDi ~ 0
+USB_DM
+$Comp
+L STM32F446Z*T* U?
+U 1 1 558AEF6C
+P 3050 2750
+F 0 "U?" H 3500 4600 60  0000 C CNN
+F 1 "STM32F446Z*T*" H 3550 2700 60  0000 C CNN
+F 2 "~" H 3050 2750 60  0000 C CNN
+F 3 "~" H 3050 2750 60  0000 C CNN
+	1    3050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F446Z*T* U?
+U 2 1 558AEF79
+P 5400 2700
+F 0 "U?" H 5850 4550 60  0000 C CNN
+F 1 "STM32F446Z*T*" H 5900 2650 60  0000 C CNN
+F 2 "~" H 5400 2700 60  0000 C CNN
+F 3 "~" H 5400 2700 60  0000 C CNN
+	2    5400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F446Z*T* U?
+U 4 1 558AEF7F
+P 3100 4950
+F 0 "U?" H 3550 6800 60  0000 C CNN
+F 1 "STM32F446Z*T*" H 3600 4900 60  0000 C CNN
+F 2 "~" H 3100 4950 60  0000 C CNN
+F 3 "~" H 3100 4950 60  0000 C CNN
+	4    3100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F446Z*T* U?
+U 5 1 558AEF85
+P 5300 4950
+F 0 "U?" H 5750 6800 60  0000 C CNN
+F 1 "STM32F446Z*T*" H 5800 4900 60  0000 C CNN
+F 2 "~" H 5300 4950 60  0000 C CNN
+F 3 "~" H 5300 4950 60  0000 C CNN
+	5    5300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F446Z*T* U?
+U 3 1 558AEF8B
+P 1100 4950
+F 0 "U?" H 1550 6800 60  0000 C CNN
+F 1 "STM32F446Z*T*" H 1600 4900 60  0000 C CNN
+F 2 "~" H 1100 4950 60  0000 C CNN
+F 3 "~" H 1100 4950 60  0000 C CNN
+	3    1100 4950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

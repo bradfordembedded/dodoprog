@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 2
 Title "Dodoprog"
-Date "24 jun 2015"
+Date "25 jun 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -56,12 +56,12 @@ $EndComp
 $Comp
 L STM32F446Z*T* U?
 U 5 1 558AEF85
-P 5300 4950
-F 0 "U?" H 5750 6800 60  0000 C CNN
-F 1 "STM32F446Z*T*" H 5800 4900 60  0000 C CNN
-F 2 "~" H 5300 4950 60  0000 C CNN
-F 3 "~" H 5300 4950 60  0000 C CNN
-	5    5300 4950
+P 2950 9850
+F 0 "U?" H 3400 11700 60  0000 C CNN
+F 1 "STM32F446Z*T*" H 3450 9800 60  0000 C CNN
+F 2 "~" H 2950 9850 60  0000 C CNN
+F 3 "~" H 2950 9850 60  0000 C CNN
+	5    2950 9850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -75,4 +75,74 @@ F 3 "~" H 1100 4950 60  0000 C CNN
 	3    1100 4950
 	1    0    0    -1  
 $EndComp
+$Comp
+L W25Q128FVSI U?
+U 1 1 558BD8C7
+P 8850 1950
+F 0 "U?" H 9200 2700 60  0000 C CNN
+F 1 "W25Q128FVSI" H 9200 1900 60  0000 C CNN
+F 2 "" H 9150 2200 60  0000 C CNN
+F 3 "" H 9150 2200 60  0000 C CNN
+	1    8850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AS4C8M16S-7TCN U?
+U 1 1 558BD8D6
+P 8750 5900
+F 0 "U?" H 9750 9000 60  0000 C CNN
+F 1 "AS4C8M16S-7TCN" H 9250 8650 60  0000 C CNN
+F 2 "~" H 9800 7150 60  0000 C CNN
+F 3 "~" H 9800 7150 60  0000 C CNN
+	1    8750 5900
+	1    0    0    -1  
+$EndComp
+Text HLabel 1050 1200 0    60   Output ~ 0
+UART_TX
+Text HLabel 1050 1350 0    60   Input ~ 0
+UART_RX
+Text HLabel 1050 1550 0    60   BiDi ~ 0
+SWDIO
+Text HLabel 1100 1700 0    60   Input ~ 0
+SWCLK
+Text HLabel 1050 1950 0    60   Input ~ 0
+~RESET
+Text HLabel 1050 2200 0    60   Output ~ 0
+LED_VOUT
+Text HLabel 1050 2350 0    60   BiDi ~ 0
+QSPI_CS
+Text HLabel 1050 2450 0    60   BiDi ~ 0
+QSPI_CLK
+Text HLabel 1050 2600 0    60   BiDi ~ 0
+QSPI_MISO
+Text HLabel 1050 2700 0    60   BiDi ~ 0
+QSPI_MOSI
+Text HLabel 1100 2850 0    60   BiDi ~ 0
+QSPI_VPP/ACC
+Text HLabel 1150 3000 0    60   BiDi ~ 0
+QSPI_IO3
+Text HLabel 1950 750  0    60   Input ~ 0
+VOUT_DIV'D
+Text HLabel 1950 900  0    60   Output ~ 0
+VOUT_SET
+Text HLabel 1850 1050 0    60   Output ~ 0
+LED_R
+Text HLabel 1900 1150 0    60   Output ~ 0
+LED_G
+Text HLabel 1850 1250 0    60   Output ~ 0
+LED_B
+Text HLabel 1900 1450 0    60   Input ~ 0
+I_SENS
+Text HLabel 1900 1600 0    60   Output ~ 0
+CS_DIR
+Text HLabel 1950 1700 0    60   Output ~ 0
+CLK_DIR
+Text HLabel 1950 1850 0    60   Output ~ 0
+MISO_DIR
+Text HLabel 1950 1950 0    60   Output ~ 0
+MOSI_DIR
+Text HLabel 1950 2050 0    60   Output ~ 0
+VPP/ACC_DIR
+Text HLabel 1950 2150 0    60   Output ~ 0
+IO3_DIR
 $EndSCHEMATC

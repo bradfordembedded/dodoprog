@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 2
 Title "Dodoprog"
-Date "30 jun 2015"
+Date "22 jul 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -700,4 +700,10 @@ F 3 "~" H 2100 6600 60  0000 C CNN
 	1    1350 5650
 	1    0    0    -1  
 $EndComp
+Text HLabel 1950 2350 0    60   BiDi ~ 0
+I2C_SDA
+Text HLabel 1950 2450 0    60   BiDi ~ 0
+I2C_CLK
+Text HLabel 1950 2550 0    60   Output ~ 0
+I2C_LS_EN
 $EndSCHEMATC

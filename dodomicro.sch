@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 2
 Title "Dodoprog"
-Date "22 jul 2015"
+Date "23 jul 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -136,7 +136,7 @@ I_SENS
 Text HLabel 1900 1600 0    60   Output ~ 0
 CS_DIR
 Text HLabel 1950 1700 0    60   Output ~ 0
-CLK_DIR
+SPI_CLK_DIR
 Text HLabel 1950 1850 0    60   Output ~ 0
 MISO_DIR
 Text HLabel 1950 1950 0    60   Output ~ 0

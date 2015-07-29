@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 2
 Title "Dodoprog"
-Date "28 jul 2015"
+Date "29 jul 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -539,7 +539,7 @@ Text Label 7250 2700 0    60   ~ 0
 A10
 Text Label 7250 2800 0    60   ~ 0
 A11
-Text Label 6200 2900 0    60   ~ 0
+Text Label 6600 2900 0    60   ~ 0
 A12
 Text Label 7250 3500 0    60   ~ 0
 BA0
@@ -940,8 +940,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 2800 7750 2800
 Wire Wire Line
-	6850 2900 7750 2900
-Wire Wire Line
 	7250 3100 7750 3100
 Wire Wire Line
 	7250 3200 7750 3200
@@ -1047,43 +1045,16 @@ Connection ~ 8650 850
 $Comp
 L R R?
 U 1 1 55B77190
-P 6650 2900
-F 0 "R?" H 6650 2825 40  0000 C CNN
-F 1 "0" H 6650 2900 30  0000 C CNN
-F 2 "~" H 6650 2875 60  0000 C CNN
-F 3 "~" H 6650 2875 60  0000 C CNN
-	1    6650 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 55B771A2
-P 6950 3150
-F 0 "R?" H 6950 3075 40  0000 C CNN
-F 1 "DNI_10K" H 6950 3150 30  0000 C CNN
-F 2 "~" H 6950 3125 60  0000 C CNN
-F 3 "~" H 6950 3125 60  0000 C CNN
-	1    6950 3150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6950 2950 6950 2900
-Connection ~ 6950 2900
-$Comp
-L GND #PWR?
-U 1 1 55B7737F
-P 6950 3400
-F 0 "#PWR?" H 6800 3400 30  0001 C CNN
-F 1 "GND" H 6950 3275 30  0000 C CNN
-F 2 "~" H 6950 3400 60  0000 C CNN
-F 3 "~" H 6950 3400 60  0000 C CNN
-	1    6950 3400
+P 7050 2900
+F 0 "R?" H 7050 2825 40  0000 C CNN
+F 1 "0" H 7050 2900 30  0000 C CNN
+F 2 "~" H 7050 2875 60  0000 C CNN
+F 3 "~" H 7050 2875 60  0000 C CNN
+	1    7050 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3400 6950 3350
-Wire Wire Line
-	6450 2900 6200 2900
+	6850 2900 6600 2900
 $Comp
 L GND #PWR?
 U 1 1 55B7755A
@@ -1119,4 +1090,8 @@ Connection ~ 8450 4750
 Wire Wire Line
 	8350 4650 8350 4750
 Connection ~ 8350 4750
+Wire Wire Line
+	7250 2900 7750 2900
+Text Notes 5850 3100 0    60   ~ 0
+A12 IS NC ON 128Mb SDRAM
 $EndSCHEMATC

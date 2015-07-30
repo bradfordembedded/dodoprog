@@ -8,7 +8,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 2
 Title "Dodoprog"
-Date "29 jul 2015"
+Date "30 jul 2015"
 Rev "PRE-A"
 Comp "Bradford Embedded"
 Comment1 "(C) 2015 Andrew Bradford"
@@ -1607,4 +1607,82 @@ Wire Wire Line
 	850  3900 1050 3900
 Wire Wire Line
 	850  3800 1050 3800
+Text Label 8600 7800 2    60   ~ 0
+A0
+Text Label 8600 7900 2    60   ~ 0
+A1
+Text Label 8600 8000 2    60   ~ 0
+A2
+Text Label 8600 8100 2    60   ~ 0
+A3
+Text Label 8600 8200 2    60   ~ 0
+A4
+Text Label 8600 8300 2    60   ~ 0
+A5
+Text Label 8600 9000 2    60   ~ 0
+A6
+Text Label 8600 9100 2    60   ~ 0
+A7
+Text Label 8600 9200 2    60   ~ 0
+A8
+Text Label 8600 9300 2    60   ~ 0
+A9
+Text Label 8950 7800 0    60   ~ 0
+A10
+Text Label 8950 7900 0    60   ~ 0
+A11
+Text Label 8950 8000 0    60   ~ 0
+A12
+Text Label 11400 6900 2    60   ~ 0
+DQ0
+Text Label 11400 7000 2    60   ~ 0
+DQ1
+Text Label 11400 5500 2    60   ~ 0
+DQ2
+Text Label 11400 5600 2    60   ~ 0
+DQ3
+Text Label 11400 6300 2    60   ~ 0
+DQ13
+Text Label 11400 6400 2    60   ~ 0
+DQ14
+Text Label 11400 6500 2    60   ~ 0
+DQ15
+Text Label 6150 8500 0    60   ~ 0
+DQ4
+Text Label 6150 8600 0    60   ~ 0
+DQ5
+Text Label 6150 8700 0    60   ~ 0
+DQ6
+Text Label 6150 8800 0    60   ~ 0
+DQ7
+Text Label 6150 8900 0    60   ~ 0
+DQ8
+Text Label 6150 9000 0    60   ~ 0
+DQ9
+Text Label 6150 9100 0    60   ~ 0
+DQ10
+Text Label 6150 9200 0    60   ~ 0
+DQ11
+Text Label 6150 9300 0    60   ~ 0
+DQ12
+Text Label 6150 6200 0    60   ~ 0
+SDNWE
+Text Label 8950 5900 0    60   ~ 0
+SDNCS
+Text Label 8950 6000 0    60   ~ 0
+SDCKE
+Text Label 8600 8900 2    60   ~ 0
+SDNRAS
+Text Label 8950 8200 0    60   ~ 0
+BA0
+Text Label 8950 8300 0    60   ~ 0
+BA1
+Text Label 8950 8600 0    60   ~ 0
+SDCLK
+Text Label 8950 9300 0    60   ~ 0
+SDNCAS
+Text Label 6150 7800 0    60   ~ 0
+SDLDQM
+Text Label 6150 7900 0    60   ~ 0
+SDUDQM
 $EndSCHEMATC

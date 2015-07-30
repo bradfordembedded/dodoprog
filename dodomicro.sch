@@ -1312,25 +1312,21 @@ Wire Wire Line
 Wire Wire Line
 	14150 8750 14700 8750
 Wire Wire Line
-	14150 8850 14700 8850
-Wire Wire Line
 	14150 8950 14700 8950
 Wire Wire Line
 	14150 9050 14700 9050
 Wire Wire Line
 	14150 9150 14700 9150
 Text Label 14150 8650 0    60   ~ 0
-SF_MOSI
+SFMOSI
 Text Label 14150 8750 0    60   ~ 0
-SF_MISO
-Text Label 14150 8850 0    60   ~ 0
-SF_WP
+SFMISO
 Text Label 14150 8950 0    60   ~ 0
 SF_HOLD
 Text Label 14150 9050 0    60   ~ 0
-SF_CS
+SFNCS
 Text Label 14150 9150 0    60   ~ 0
-SF_CLK
+SFCLK
 Wire Wire Line
 	8150 8000 8600 8000
 Wire Wire Line
@@ -1685,4 +1681,13 @@ Text Label 6150 7800 0    60   ~ 0
 SDLDQM
 Text Label 6150 7900 0    60   ~ 0
 SDUDQM
+NoConn ~ 14700 8850
+Text Label 6150 8000 0    60   ~ 0
+SFCLK
+Text Label 6150 8200 0    60   ~ 0
+SFNCS
+Text Label 6150 8300 0    60   ~ 0
+SFMISO
+Text Label 6150 8400 0    60   ~ 0
+SFMOSI
 $EndSCHEMATC

@@ -1254,7 +1254,7 @@ F 3 "~" H 13500 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 12700 4850 0    60   ~ 0
-VOUT_LED
+LED_VOUT
 Text Label 2650 7000 0    60   ~ 0
 RESET
 $Comp

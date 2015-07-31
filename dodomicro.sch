@@ -1568,4 +1568,67 @@ Wire Wire Line
 	3850 1750 3250 1750
 Wire Wire Line
 	3850 1850 3250 1850
+Text Label 3850 3650 2    60   ~ 0
+ULPID0
+Text Label 3850 3750 2    60   ~ 0
+ULPID1
+Text Label 3850 3850 2    60   ~ 0
+ULPID2
+Text Label 3850 3950 2    60   ~ 0
+ULPID3
+Text Label 3850 4050 2    60   ~ 0
+ULPID4
+Text Label 3850 4150 2    60   ~ 0
+ULPID5
+Text Label 3850 4250 2    60   ~ 0
+ULPID6
+Text Label 3850 4350 2    60   ~ 0
+ULPID7
+Text Label 3850 4450 2    60   ~ 0
+ULPISTP
+Text Label 3850 4550 2    60   ~ 0
+ULPINXT
+Text Label 3850 4650 2    60   ~ 0
+ULPIDIR
+Text Label 3850 4750 2    60   ~ 0
+ULPICLK
+Text Label 3850 4850 2    60   ~ 0
+ULPIRST
+$Comp
+L GND #PWR?
+U 1 1 55BB6687
+P 2250 6050
+F 0 "#PWR?" H 2100 6050 30  0001 C CNN
+F 1 "GND" H 2250 5925 40  0000 C CNN
+F 2 "~" H 2250 6050 60  0000 C CNN
+F 3 "~" H 2250 6050 60  0000 C CNN
+	1    2250 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5950 2250 6050
+Text Label 8950 5500 0    60   ~ 0
+ULPISTP
+Text Label 8950 5700 0    60   ~ 0
+ULPIDIR
+Text Label 8950 5800 0    60   ~ 0
+ULPINXT
+Text Label 6150 5700 0    60   ~ 0
+ULPID0
+Text Label 6150 6000 0    60   ~ 0
+ULPICLK
+Text Label 8600 5500 2    60   ~ 0
+ULPID1
+Text Label 8600 5600 2    60   ~ 0
+ULPID2
+Text Label 8600 5700 2    60   ~ 0
+ULPID4
+Text Label 8600 6500 2    60   ~ 0
+ULPID3
+Text Label 8600 6700 2    60   ~ 0
+ULPID5
+Text Label 8600 6800 2    60   ~ 0
+ULPID6
+Text Label 8600 6000 2    60   ~ 0
+ULPID7
 $EndSCHEMATC
